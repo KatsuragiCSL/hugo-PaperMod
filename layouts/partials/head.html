@@ -150,6 +150,7 @@
 
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{ if .Params.tikz }}{{ partial "helpers/tikz.html" . }}{{ end }}
 {{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 <script>
     document.addEventListener("DOMContentLoaded", function() {
