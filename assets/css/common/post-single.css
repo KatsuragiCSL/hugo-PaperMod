@@ -407,3 +407,12 @@ img.in-text {
     display: inline;
     margin: auto;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex-grow {
+    flex-grow: 1;
+    transform: scale(3);
+}
