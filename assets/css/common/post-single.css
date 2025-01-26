@@ -333,6 +333,7 @@
     background: var(--border);
 }
 
+.buy-me-a-coffee,
 .share-buttons {
     padding: 10px;
     display: flex;
@@ -341,6 +342,7 @@
     gap: 10px;
 }
 
+.buy-me-a-coffee a,
 .share-buttons li,
 .share-buttons a {
     display: inline-flex;
